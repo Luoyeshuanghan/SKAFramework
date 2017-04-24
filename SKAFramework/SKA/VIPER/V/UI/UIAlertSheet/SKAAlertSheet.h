@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  SKAAlertSheet.h
 //  SKAFramework
 //
 //  Created by JYC on 2017/4/24.
 //  Copyright © 2017年 姜雨辰. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController
-
+@interface SKAAlertSheet : NSObject
 
 @end
-

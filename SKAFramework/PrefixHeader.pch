@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  SKAFramework
+//
+//  Created by JYC on 2017/4/24.
+//  Copyright © 2017年 姜雨辰. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "SKAVHeader.h"
+#import "NSSKAHeader.h"
+
+#endif /* PrefixHeader_pch */

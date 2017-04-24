@@ -2,7 +2,7 @@
 //  ViewController.m
 //  SKAFramework
 //
-//  Created by JZZ on 2017/4/24.
+//  Created by JYC on 2017/4/24.
 //  Copyright © 2017年 姜雨辰. All rights reserved.
 //
 
@@ -16,9 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"1");
 }
 
+- (void)viewDidAppear:(BOOL)animated{
+    
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

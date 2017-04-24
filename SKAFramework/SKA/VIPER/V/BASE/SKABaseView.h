@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SKABaseView.h
 //  SKAFramework
 //
 //  Created by JYC on 2017/4/24.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SKABaseView : UIView
 
 @end
-

@@ -15,6 +15,11 @@
 		4E91667D1EADA70100B06D4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E91667B1EADA70100B06D4B /* LaunchScreen.storyboard */; };
 		4E9166881EADA70100B06D4B /* SKAFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9166871EADA70100B06D4B /* SKAFrameworkTests.m */; };
 		4E9166931EADA70100B06D4B /* SKAFrameworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9166921EADA70100B06D4B /* SKAFrameworkUITests.m */; };
+		4E9167021EADC04700B06D4B /* SKABaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9167011EADC04700B06D4B /* SKABaseView.m */; };
+		4E91670B1EADC0C400B06D4B /* UIView+SKA.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E91670A1EADC0C400B06D4B /* UIView+SKA.m */; };
+		4E9167101EADDF5700B06D4B /* UIButton+SKA.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E91670F1EADDF5700B06D4B /* UIButton+SKA.m */; };
+		4E9167171EADF57600B06D4B /* SKAAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9167161EADF57600B06D4B /* SKAAlertController.m */; };
+		4E91671A1EADFF9200B06D4B /* SKAAlertSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9167191EADFF9200B06D4B /* SKAAlertSheet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,19 @@
 		4E91668E1EADA70100B06D4B /* SKAFrameworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKAFrameworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E9166921EADA70100B06D4B /* SKAFrameworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKAFrameworkUITests.m; sourceTree = "<group>"; };
 		4E9166941EADA70100B06D4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E9167001EADC04700B06D4B /* SKABaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKABaseView.h; sourceTree = "<group>"; };
+		4E9167011EADC04700B06D4B /* SKABaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKABaseView.m; sourceTree = "<group>"; };
+		4E9167091EADC0C400B06D4B /* UIView+SKA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SKA.h"; sourceTree = "<group>"; };
+		4E91670A1EADC0C400B06D4B /* UIView+SKA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SKA.m"; sourceTree = "<group>"; };
+		4E91670C1EADC17500B06D4B /* SKAVHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKAVHeader.h; sourceTree = "<group>"; };
+		4E91670D1EADC1B000B06D4B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4E91670E1EADDF5700B06D4B /* UIButton+SKA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+SKA.h"; sourceTree = "<group>"; };
+		4E91670F1EADDF5700B06D4B /* UIButton+SKA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SKA.m"; sourceTree = "<group>"; };
+		4E9167111EADE42200B06D4B /* NSSKAHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSSKAHeader.h; sourceTree = "<group>"; };
+		4E9167151EADF57600B06D4B /* SKAAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKAAlertController.h; sourceTree = "<group>"; };
+		4E9167161EADF57600B06D4B /* SKAAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKAAlertController.m; sourceTree = "<group>"; };
+		4E9167181EADFF9200B06D4B /* SKAAlertSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKAAlertSheet.h; sourceTree = "<group>"; };
+		4E9167191EADFF9200B06D4B /* SKAAlertSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKAAlertSheet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +127,7 @@
 				4E9166791EADA70100B06D4B /* Assets.xcassets */,
 				4E91667B1EADA70100B06D4B /* LaunchScreen.storyboard */,
 				4E91667E1EADA70100B06D4B /* Info.plist */,
+				4E9166CE1EADC01F00B06D4B /* SKA */,
 				4E91666D1EADA70100B06D4B /* Supporting Files */,
 			);
 			path = SKAFramework;
@@ -118,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				4E91666E1EADA70100B06D4B /* main.m */,
+				4E91670D1EADC1B000B06D4B /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +158,417 @@
 				4E9166941EADA70100B06D4B /* Info.plist */,
 			);
 			path = SKAFrameworkUITests;
+			sourceTree = "<group>";
+		};
+		4E9166CE1EADC01F00B06D4B /* SKA */ = {
+			isa = PBXGroup;
+			children = (
+				4E9166CF1EADC01F00B06D4B /* NSSKA */,
+				4E9166D71EADC01F00B06D4B /* VIPER */,
+			);
+			path = SKA;
+			sourceTree = "<group>";
+		};
+		4E9166CF1EADC01F00B06D4B /* NSSKA */ = {
+			isa = PBXGroup;
+			children = (
+				4E9167111EADE42200B06D4B /* NSSKAHeader.h */,
+				4E9166D01EADC01F00B06D4B /* NSArray */,
+				4E9166D11EADC01F00B06D4B /* NSDate */,
+				4E9166D21EADC01F00B06D4B /* NSDictionary */,
+				4E9166D31EADC01F00B06D4B /* NSLog */,
+				4E9166D41EADC01F00B06D4B /* NSObject */,
+				4E9166D51EADC01F00B06D4B /* NSString */,
+				4E9166D61EADC01F00B06D4B /* NSTimer */,
+			);
+			path = NSSKA;
+			sourceTree = "<group>";
+		};
+		4E9166D01EADC01F00B06D4B /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		4E9166D11EADC01F00B06D4B /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		4E9166D21EADC01F00B06D4B /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		4E9166D31EADC01F00B06D4B /* NSLog */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSLog;
+			sourceTree = "<group>";
+		};
+		4E9166D41EADC01F00B06D4B /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		4E9166D51EADC01F00B06D4B /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		4E9166D61EADC01F00B06D4B /* NSTimer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSTimer;
+			sourceTree = "<group>";
+		};
+		4E9166D71EADC01F00B06D4B /* VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				4E9166E01EADC01F00B06D4B /* V */,
+				4E9166DA1EADC01F00B06D4B /* I */,
+				4E9166DC1EADC01F00B06D4B /* P */,
+				4E9166D81EADC01F00B06D4B /* E */,
+				4E9166DE1EADC01F00B06D4B /* R */,
+			);
+			path = VIPER;
+			sourceTree = "<group>";
+		};
+		4E9166D81EADC01F00B06D4B /* E */ = {
+			isa = PBXGroup;
+			children = (
+				4E9166D91EADC01F00B06D4B /* BASE */,
+			);
+			path = E;
+			sourceTree = "<group>";
+		};
+		4E9166D91EADC01F00B06D4B /* BASE */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BASE;
+			sourceTree = "<group>";
+		};
+		4E9166DA1EADC01F00B06D4B /* I */ = {
+			isa = PBXGroup;
+			children = (
+				4E9166DB1EADC01F00B06D4B /* BASE */,
+			);
+			path = I;
+			sourceTree = "<group>";
+		};
+		4E9166DB1EADC01F00B06D4B /* BASE */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BASE;
+			sourceTree = "<group>";
+		};
+		4E9166DC1EADC01F00B06D4B /* P */ = {
+			isa = PBXGroup;
+			children = (
+				4E9166DD1EADC01F00B06D4B /* BASE */,
+			);
+			path = P;
+			sourceTree = "<group>";
+		};
+		4E9166DD1EADC01F00B06D4B /* BASE */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BASE;
+			sourceTree = "<group>";
+		};
+		4E9166DE1EADC01F00B06D4B /* R */ = {
+			isa = PBXGroup;
+			children = (
+				4E9166DF1EADC01F00B06D4B /* BASE */,
+			);
+			path = R;
+			sourceTree = "<group>";
+		};
+		4E9166DF1EADC01F00B06D4B /* BASE */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BASE;
+			sourceTree = "<group>";
+		};
+		4E9166E01EADC01F00B06D4B /* V */ = {
+			isa = PBXGroup;
+			children = (
+				4E91670C1EADC17500B06D4B /* SKAVHeader.h */,
+				4E9166E11EADC01F00B06D4B /* BASE */,
+				4E9166F31EADC01F00B06D4B /* UI */,
+				4E9166E21EADC01F00B06D4B /* SKAUI */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		4E9166E11EADC01F00B06D4B /* BASE */ = {
+			isa = PBXGroup;
+			children = (
+				4E9167001EADC04700B06D4B /* SKABaseView.h */,
+				4E9167011EADC04700B06D4B /* SKABaseView.m */,
+			);
+			path = BASE;
+			sourceTree = "<group>";
+		};
+		4E9166E21EADC01F00B06D4B /* SKAUI */ = {
+			isa = PBXGroup;
+			children = (
+				4E9166E31EADC01F00B06D4B /* SKAAudio */,
+				4E9166E41EADC01F00B06D4B /* SKABaiduMap */,
+				4E9166E51EADC01F00B06D4B /* SKACharts */,
+				4E9166E61EADC01F00B06D4B /* SKACollectionView */,
+				4E9166E71EADC01F00B06D4B /* SKADatePicker */,
+				4E9166E81EADC01F00B06D4B /* SKADialogView */,
+				4E9166E91EADC01F00B06D4B /* SKAEmptyView */,
+				4E9166EA1EADC01F00B06D4B /* SKAFloatView */,
+				4E9166EB1EADC01F00B06D4B /* SKAHUD */,
+				4E9166EC1EADC01F00B06D4B /* SKAPickerView */,
+				4E9166ED1EADC01F00B06D4B /* SKAPopup */,
+				4E9166EE1EADC01F00B06D4B /* SKAPresentationView */,
+				4E9166EF1EADC01F00B06D4B /* SKASearchViewController */,
+				4E9166F01EADC01F00B06D4B /* SKAShareView */,
+				4E9166F11EADC01F00B06D4B /* SKATableView */,
+				4E9166F21EADC01F00B06D4B /* SKAVideo */,
+			);
+			path = SKAUI;
+			sourceTree = "<group>";
+		};
+		4E9166E31EADC01F00B06D4B /* SKAAudio */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SKAAudio;
+			sourceTree = "<group>";
+		};
+		4E9166E41EADC01F00B06D4B /* SKABaiduMap */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SKABaiduMap;
+			sourceTree = "<group>";
+		};
+		4E9166E51EADC01F00B06D4B /* SKACharts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SKACharts;
+			sourceTree = "<group>";
+		};
+		4E9166E61EADC01F00B06D4B /* SKACollectionView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SKACollectionView;
+			sourceTree = "<group>";
+		};
+		4E9166E71EADC01F00B06D4B /* SKADatePicker */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SKADatePicker;
+			sourceTree = "<group>";
+		};
+		4E9166E81EADC01F00B06D4B /* SKADialogView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SKADialogView;
+			sourceTree = "<group>";
+		};
+		4E9166E91EADC01F00B06D4B /* SKAEmptyView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SKAEmptyView;
+			sourceTree = "<group>";
+		};
+		4E9166EA1EADC01F00B06D4B /* SKAFloatView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SKAFloatView;
+			sourceTree = "<group>";
+		};
+		4E9166EB1EADC01F00B06D4B /* SKAHUD */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SKAHUD;
+			sourceTree = "<group>";
+		};
+		4E9166EC1EADC01F00B06D4B /* SKAPickerView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SKAPickerView;
+			sourceTree = "<group>";
+		};
+		4E9166ED1EADC01F00B06D4B /* SKAPopup */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SKAPopup;
+			sourceTree = "<group>";
+		};
+		4E9166EE1EADC01F00B06D4B /* SKAPresentationView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SKAPresentationView;
+			sourceTree = "<group>";
+		};
+		4E9166EF1EADC01F00B06D4B /* SKASearchViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SKASearchViewController;
+			sourceTree = "<group>";
+		};
+		4E9166F01EADC01F00B06D4B /* SKAShareView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SKAShareView;
+			sourceTree = "<group>";
+		};
+		4E9166F11EADC01F00B06D4B /* SKATableView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SKATableView;
+			sourceTree = "<group>";
+		};
+		4E9166F21EADC01F00B06D4B /* SKAVideo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SKAVideo;
+			sourceTree = "<group>";
+		};
+		4E9166F31EADC01F00B06D4B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				4E9166F41EADC01F00B06D4B /* UIAlertController */,
+				4E9166F51EADC01F00B06D4B /* UIAlertSheet */,
+				4E9166F61EADC01F00B06D4B /* UIButton */,
+				4E9166F71EADC01F00B06D4B /* UIColor */,
+				4E9166F81EADC01F00B06D4B /* UIImage */,
+				4E9166F91EADC01F00B06D4B /* UIImageView */,
+				4E9166FA1EADC01F00B06D4B /* UILabel */,
+				4E9166FB1EADC01F00B06D4B /* UINavigationViewController */,
+				4E9166FC1EADC01F00B06D4B /* UITabbar */,
+				4E9166FD1EADC01F00B06D4B /* UITextField */,
+				4E9166FE1EADC01F00B06D4B /* UITextView */,
+				4E9166FF1EADC01F00B06D4B /* UIView */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		4E9166F41EADC01F00B06D4B /* UIAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				4E9167151EADF57600B06D4B /* SKAAlertController.h */,
+				4E9167161EADF57600B06D4B /* SKAAlertController.m */,
+			);
+			path = UIAlertController;
+			sourceTree = "<group>";
+		};
+		4E9166F51EADC01F00B06D4B /* UIAlertSheet */ = {
+			isa = PBXGroup;
+			children = (
+				4E9167181EADFF9200B06D4B /* SKAAlertSheet.h */,
+				4E9167191EADFF9200B06D4B /* SKAAlertSheet.m */,
+			);
+			path = UIAlertSheet;
+			sourceTree = "<group>";
+		};
+		4E9166F61EADC01F00B06D4B /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				4E91670E1EADDF5700B06D4B /* UIButton+SKA.h */,
+				4E91670F1EADDF5700B06D4B /* UIButton+SKA.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		4E9166F71EADC01F00B06D4B /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		4E9166F81EADC01F00B06D4B /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		4E9166F91EADC01F00B06D4B /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		4E9166FA1EADC01F00B06D4B /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		4E9166FB1EADC01F00B06D4B /* UINavigationViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UINavigationViewController;
+			sourceTree = "<group>";
+		};
+		4E9166FC1EADC01F00B06D4B /* UITabbar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UITabbar;
+			sourceTree = "<group>";
+		};
+		4E9166FD1EADC01F00B06D4B /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
+		4E9166FE1EADC01F00B06D4B /* UITextView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UITextView;
+			sourceTree = "<group>";
+		};
+		4E9166FF1EADC01F00B06D4B /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				4E9167091EADC0C400B06D4B /* UIView+SKA.h */,
+				4E91670A1EADC0C400B06D4B /* UIView+SKA.m */,
+			);
+			path = UIView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,9 +707,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E91670B1EADC0C400B06D4B /* UIView+SKA.m in Sources */,
 				4E9166751EADA70100B06D4B /* ViewController.m in Sources */,
+				4E91671A1EADFF9200B06D4B /* SKAAlertSheet.m in Sources */,
+				4E9167021EADC04700B06D4B /* SKABaseView.m in Sources */,
+				4E9167171EADF57600B06D4B /* SKAAlertController.m in Sources */,
 				4E9166721EADA70100B06D4B /* AppDelegate.m in Sources */,
 				4E91666F1EADA70100B06D4B /* main.m in Sources */,
+				4E9167101EADDF5700B06D4B /* UIButton+SKA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +862,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WHRJ2XATM8;
+				GCC_PREFIX_HEADER = "/Users/GR/辰/SKAFramework/SKAFramework/PrefixHeader.pch";
 				INFOPLIST_FILE = SKAFramework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.JYC.SKAFramework;
@@ -438,6 +875,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WHRJ2XATM8;
+				GCC_PREFIX_HEADER = "/Users/GR/辰/SKAFramework/SKAFramework/PrefixHeader.pch";
 				INFOPLIST_FILE = SKAFramework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.JYC.SKAFramework;
@@ -514,6 +952,7 @@
 				4E9166991EADA70100B06D4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E91669A1EADA70100B06D4B /* Build configuration list for PBXNativeTarget "SKAFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +961,7 @@
 				4E91669C1EADA70100B06D4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E91669D1EADA70100B06D4B /* Build configuration list for PBXNativeTarget "SKAFrameworkUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +970,7 @@
 				4E91669F1EADA70100B06D4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
