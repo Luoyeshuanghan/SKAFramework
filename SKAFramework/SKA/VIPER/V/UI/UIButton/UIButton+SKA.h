@@ -23,12 +23,12 @@
 - (void)SKA_textMarginTop:(CGFloat)top;
 
 #pragma mark - Style
-///// 控制图片在UIButton里的位置，默认为QMUIButtonImagePositionLeft
-//typedef enum {
-//    SKAUIButtonImageFloatTop,             // imageView在UIButton上面
-//    SKAUIButtonImageFloatLeft,            // imageView在UIButton左边
-//    SKAUIButtonImageFloatBottom,          // imageView在UIButton下面
-//    SKAUIButtonImageFloatRight,           // imageView在UIButton右边
-//} SKAUIButtonImageFloat;
-//- (void)SKA_imageNamed:(NSString *)imageNamed withImageFloat:(SKAUIButtonImageFloat)imageFloat;
+typedef enum {
+    SKAUIButtonImageFloatLeft,            // imageView在UIButton左边
+    SKAUIButtonImageFloatTop,             // imageView在UIButton上面
+    SKAUIButtonImageFloatRight,           // imageView在UIButton右边
+    SKAUIButtonImageFloatBottom,          // imageView在UIButton下面
+} SKAUIButtonImageFloat;
+- (void)SKA_imageNamed:(NSString *)imageNamed withImageFloat:(SKAUIButtonImageFloat)imageFloat;
+- (void)SKA_imageNamed:(NSString *)imageNamed withImageFloat:(SKAUIButtonImageFloat)imageFloat right_margin:(CGFloat)right_margin;
 @end

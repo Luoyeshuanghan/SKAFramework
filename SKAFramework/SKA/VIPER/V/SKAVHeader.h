@@ -23,6 +23,11 @@
 #pragma mark - UI
 #import "UIView+SKA.h"
 #import "UIButton+SKA.h"
+#import "UILabel+SKA.h"
+#import "UITextView+SKA.h"
+#import "UITextField+SKA.h"
+#import "UIImageView+SKA.h"
+#import "UINavigationController+SKA.h"
 
 #pragma mark - SKAUI
 #import "SKAAlertController.h"

@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface SKAAlertSheet : NSObject
+#define SKAAlertSheetGeneralColor [UIColor blackColor]
+#define SKAAlertSheetCancelColor [UIColor grayColor]
 
+@interface SKAAlertSheet : NSObject
++ (void)test:(id)delegate confirm:(void (^)(void))confrim cancel:(void (^)(void))cancel;
 @end

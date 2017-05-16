@@ -45,4 +45,33 @@
 - (void)SKA_textMarginTop:(CGFloat)top{
     self.contentEdgeInsets = UIEdgeInsetsMake(top, 0, 0, 0);
 }
+- (void)SKA_imageNamed:(NSString *)imageNamed withImageFloat:(SKAUIButtonImageFloat)imageFloat{
+    [self SKA_imageNamed:imageNamed withImageFloat:imageFloat right_margin:0];
+}
+- (void)SKA_imageNamed:(NSString *)imageNamed withImageFloat:(SKAUIButtonImageFloat)imageFloat right_margin:(CGFloat)right_margin{
+    switch (imageFloat) {
+        case SKAUIButtonImageFloatLeft:
+            [self setImage:[UIImage imageNamed:imageNamed] forState:UIControlStateNormal];
+            [self setImageEdgeInsets:UIEdgeInsetsMake(-self.titleLabel.intrinsicContentSize.height, 0, 0, -self.titleLabel.intrinsicContentSize.width)];
+            [self setTitleEdgeInsets:UIEdgeInsetsMake(self.currentImage.size.height + SKAH(10), -self.currentImage.size.width, 0, 0)];
+            break;
+        case SKAUIButtonImageFloatTop:
+            [self setImage:[UIImage imageNamed:imageNamed] forState:UIControlStateNormal];
+            [self setImageEdgeInsets:UIEdgeInsetsMake(0, 0, 0, SKAH(10))];
+            break;
+        case SKAUIButtonImageFloatRight:
+            [self setImage:[UIImage imageNamed:imageNamed] forState:UIControlStateNormal];
+            [self setImageEdgeInsets:UIEdgeInsetsMake(0, right_margin, 0, 0)];
+            [self setTitleEdgeInsets:UIEdgeInsetsMake(0, -self.currentImage.size.width, 0, self.currentImage.size.width)];
+            break;
+        case SKAUIButtonImageFloatBottom:
+            [self setImage:[UIImage imageNamed:imageNamed] forState:UIControlStateNormal];
+            [self setImageEdgeInsets:UIEdgeInsetsMake(self.titleLabel.intrinsicContentSize.height, 0, 0, -self.titleLabel.intrinsicContentSize.width)];
+            [self setTitleEdgeInsets:UIEdgeInsetsMake(-self.currentImage.size.height - 10, -self.currentImage.size.width, 0, 0)];
+            break;
+            
+        default:
+            break;
+    }
+}
 @end
