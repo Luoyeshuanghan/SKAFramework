@@ -9,5 +9,6 @@ pod 'MJRefresh'
 pod 'IQKeyboardManager'
 pod 'iOS-Slide-Menu', '~> 1.5'
 pod 'BaiduMapKit' #百度地图SDK
+pod 'AliyunOSSiOS', '~> 2.6.0' #阿里云OSS
 pod 'Realm'
 end

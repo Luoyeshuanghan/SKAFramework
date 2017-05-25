@@ -38,7 +38,6 @@
     });
     [self.view addSubview:btn];
     
-    
     [self.navigationController SKA_navigationBarBg:@"General_navi_bg"];
 }
 

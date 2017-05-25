@@ -147,10 +147,10 @@
     if (model == nil){
         result_data = self.data;
     } else {
-//        SKABaseModel * obj = [NSClassFromString(model) new];
-//        [obj setValuesForKeysWithDictionary:self.data];
-//        [obj parseModel:self.data];
-//        result_data = obj;
+        SKABaseModel * obj = [NSClassFromString(model) new];
+        [obj setValuesForKeysWithDictionary:self.data];
+        [obj parseModel:self.data];
+        result_data = obj;
     }
     return result_data;
 }

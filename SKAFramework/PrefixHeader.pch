@@ -9,55 +9,35 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
-#pragma mark - 三方
-
 #ifdef __OBJC__
-#pragma mark - 系统级
+#pragma mark - 系统
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 #import "SKAAppConfig.h"
 #import "SKABaseConfig.h"
 //#import "SKAUser.h"
-#import "SKAVHeader.h"
 #import "SKANSHeader.h"
 #import "AppDelegate+SKA.h"
 #import "UIViewController+Route.h"
 
-#pragma mark - 代码级
-#pragma mark - V
-#import "SKAColorHeader.h"
-//#import "UIView+SKAInitKVC.h"
-#pragma mark - I
-//#import "SKAInteractor.h"
-//#import "SKAInteractor+SKATableView.h"
-//#import "UIViewController+SKANetInterfactor.h"
-#pragma mark - P
-//#import "UIViewController+SKA.h"
-//#import "UIViewController+SKAPresenter.h"
+#pragma mark - 框架
+#pragma mark - NS
+#import "SKANSHeader.h"
 #pragma mark - E
-//#import "SKANetEntity.h"
-//#import "SKABaseModel.h"
+#import "SKABaseModel.h"
+#pragma mark - V
+#import "SKAVHeader.h"
+#import "SKAColorHeader.h"
+#pragma mark - I
+#import "SKAInterfactorHeader.h"
+#pragma mark - P
+#import "SKAPresenterHeader.h"
 #pragma mark - R
-//#import "UIViewController+SKARoute.h"
+#import "UIViewController+Route.h"
 
-#pragma mark - 布局级
+#pragma mark - 布局
 //#import "SKACSSHeader.h"
-//#import "SKAUITabbarHeader.h"
-//#import "SKATableViewHeader.h"
-
-#pragma mark - 框架级
-//#import "SKALogHeader.h"
-#import "SKANetWorkInterfaceHeader.h"
-//#import "SKAModelMiddle.h"
-
-#pragma mark - 扩展级
-//#import "SKACategoryHeader.h"
-//#import "SKAColorHeader.h"
-//#import "AppDelegate+SKA.h"
-//#import "NSDictionary+SKA.h"
-//#import "NSArray+SKA.h"
-//#import "NSDictionary+NilString.h"
 
 #pragma mark - 三方级
 #import "AFNetworking.h"

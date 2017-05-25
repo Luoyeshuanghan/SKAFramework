@@ -10,6 +10,7 @@
 #define SKANSHeader_h
 
 #pragma mark - SKANS
+#import "SKANumber.h"
 #import "NSArray+SKA.h"
 #import "NSDate+SKA.h"
 #import "NSDictionary+SKA.h"
