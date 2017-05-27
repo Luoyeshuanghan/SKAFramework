@@ -53,8 +53,9 @@
         }
     }
     [net_work netWork:^(id data) {
-        [net_work parseStatus:data success:update faild:faild];
-        [net_work setCache];
+        if (![net_work.data isEqual:data[@"data"]]){
+            [net_work parseStatus:data success:update faild:faild];
+        }
     } faild:faild];
 
 }
@@ -126,7 +127,7 @@
 }
 
 - (NSString *)getEntityUrl{
-    NSString * url_a = [NSString stringWithFormat:@"%@%@", NETWORK_BASEURL, self.url];;
+    NSString * url_a = [NSString stringWithFormat:@"%@%@", NETWORK_BASEURL_T, self.url];;
 //    if ([SKAUser sharedInstance].is_test == nil || [[SKAUser sharedInstance].is_test isEqualToString:@""]){
 //        url_a = [NSString stringWithFormat:@"%@%@", NETWORK_BASEURL, self.url];
 //    } else {

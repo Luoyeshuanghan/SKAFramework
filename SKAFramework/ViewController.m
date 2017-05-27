@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "UIViewController+Route.h"
+#import "SKALoginIN.h"
+#import "LoginM.h"
 
 @interface ViewController ()
 
@@ -17,28 +19,37 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self SKA_statusBarsColor:<#(NSString *)#>];
     NSLog(@"1");
     
-    [self.view SKA_bg:[UIColor whiteColor]];
+//    [self.view SKA_bg:[UIColor whiteColor]];
+//    
+//    UITextField * tf = ({
+//        UITextField * t = [[UITextField alloc] initWithFrame:CGRectMake(100, 100, 175, 40)];
+//        t.backgroundColor = [UIColor orangeColor];
+//        [t SKA_addLeftIcon:@"T"];
+//        t;
+//    });
+//    
+//    [self.view addSubview:tf];
+//    
+//    UIButton * btn = ({
+//        UIButton * bn = [UIButton SKA_initAR:200 y:200 w:80 h:50];
+//        [bn SKA_bg:[UIColor yellowColor]];
+//        [bn SKA_action:self action:@selector(abcde)];
+//        bn;
+//    });
+//    [self.view addSubview:btn];
+//    
+//    [self.navigationController SKA_navigationBarBg:@"General_navi_bg"];
     
-    UITextField * tf = ({
-        UITextField * t = [[UITextField alloc] initWithFrame:CGRectMake(100, 100, 175, 40)];
-        t.backgroundColor = [UIColor orangeColor];
-        [t SKA_addLeftIcon:@"T"];
-        t;
-    });
-    
-    [self.view addSubview:tf];
-    
-    UIButton * btn = ({
-        UIButton * bn = [UIButton SKA_initAR:200 y:200 w:80 h:50];
-        [bn SKA_bg:[UIColor yellowColor]];
-        [bn SKA_action:self action:@selector(abcde)];
-        bn;
-    });
-    [self.view addSubview:btn];
-    
-    [self.navigationController SKA_navigationBarBg:@"General_navi_bg"];
+    [SKALoginIN POST:self param:@{@"doctor_id":@"56"} cache:^(LoginM * data) {
+        NSLog(@"%@", data.AccessKeyId);
+    } update:^(LoginM * data) {
+        NSLog(@"%@", data.AccessKeyId);
+    } faild:^{
+        
+    } model:@"LoginM"];
 }
 
 - (void)sss{

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		025853301ED809E1009E78DE /* SKALoginIN.m in Sources */ = {isa = PBXBuildFile; fileRef = 0258532F1ED809E1009E78DE /* SKALoginIN.m */; };
+		025853331ED81BB2009E78DE /* LoginM.m in Sources */ = {isa = PBXBuildFile; fileRef = 025853321ED81BB2009E78DE /* LoginM.m */; };
+		025853361ED8244B009E78DE /* VC配置.plist in Resources */ = {isa = PBXBuildFile; fileRef = 025853351ED8244B009E78DE /* VC配置.plist */; };
 		02650B5E1EB1CD7D001B02D0 /* UILabel+SKA.m in Sources */ = {isa = PBXBuildFile; fileRef = 02650B5D1EB1CD7D001B02D0 /* UILabel+SKA.m */; };
 		02650B611EB1CEAB001B02D0 /* UITextView+SKA.m in Sources */ = {isa = PBXBuildFile; fileRef = 02650B601EB1CEAB001B02D0 /* UITextView+SKA.m */; };
 		02650B641EB1DB8F001B02D0 /* UITextField+SKA.m in Sources */ = {isa = PBXBuildFile; fileRef = 02650B631EB1DB8F001B02D0 /* UITextField+SKA.m */; };
@@ -105,6 +108,11 @@
 
 /* Begin PBXFileReference section */
 		016FA9D374C3463BD9720160 /* Pods-SKAFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKAFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SKAFramework/Pods-SKAFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		0258532E1ED809E1009E78DE /* SKALoginIN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKALoginIN.h; sourceTree = "<group>"; };
+		0258532F1ED809E1009E78DE /* SKALoginIN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKALoginIN.m; sourceTree = "<group>"; };
+		025853311ED81BB2009E78DE /* LoginM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginM.h; sourceTree = "<group>"; };
+		025853321ED81BB2009E78DE /* LoginM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginM.m; sourceTree = "<group>"; };
+		025853351ED8244B009E78DE /* VC配置.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "VC配置.plist"; sourceTree = "<group>"; };
 		02650B5C1EB1CD7D001B02D0 /* UILabel+SKA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+SKA.h"; sourceTree = "<group>"; };
 		02650B5D1EB1CD7D001B02D0 /* UILabel+SKA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+SKA.m"; sourceTree = "<group>"; };
 		02650B5F1EB1CEAB001B02D0 /* UITextView+SKA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+SKA.h"; sourceTree = "<group>"; };
@@ -307,6 +315,17 @@
 			path = SKAAudio;
 			sourceTree = "<group>";
 		};
+		025853241ED8078B009E78DE /* 登录 */ = {
+			isa = PBXGroup;
+			children = (
+				0258532E1ED809E1009E78DE /* SKALoginIN.h */,
+				0258532F1ED809E1009E78DE /* SKALoginIN.m */,
+				025853311ED81BB2009E78DE /* LoginM.h */,
+				025853321ED81BB2009E78DE /* LoginM.m */,
+			);
+			name = "登录";
+			sourceTree = "<group>";
+		};
 		0281314F1ED6C4C100C9FC84 /* 组件 */ = {
 			isa = PBXGroup;
 			children = (
@@ -317,6 +336,7 @@
 		028131501ED6C4D100C9FC84 /* 业务 */ = {
 			isa = PBXGroup;
 			children = (
+				025853241ED8078B009E78DE /* 登录 */,
 				028131521ED6CA2300C9FC84 /* 用户 */,
 			);
 			name = "业务";
@@ -408,6 +428,7 @@
 			children = (
 				02A678D61ECAAA620062EAD2 /* SKABaseConfig.h */,
 				4E91667E1EADA70100B06D4B /* Info.plist */,
+				025853351ED8244B009E78DE /* VC配置.plist */,
 				02A678D71ECAAC730062EAD2 /* BaseTestPresenter */,
 			);
 			name = "系统配置";
@@ -1326,6 +1347,7 @@
 				02A6796D1ECAECB20062EAD2 /* SKACitys.plist in Resources */,
 				4E91667D1EADA70100B06D4B /* LaunchScreen.storyboard in Resources */,
 				4E91667A1EADA70100B06D4B /* Assets.xcassets in Resources */,
+				025853361ED8244B009E78DE /* VC配置.plist in Resources */,
 				4E9166781EADA70100B06D4B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1446,6 +1468,7 @@
 				02DDA11F1ECD317D0010AAA0 /* SKATableViewSectionModel.m in Sources */,
 				02650B611EB1CEAB001B02D0 /* UITextView+SKA.m in Sources */,
 				02650B671EB1E6C9001B02D0 /* NSArray+SKA.m in Sources */,
+				025853331ED81BB2009E78DE /* LoginM.m in Sources */,
 				4E9167171EADF57600B06D4B /* SKAAlertController.m in Sources */,
 				02A679601ECAE6320062EAD2 /* UIImage+SKA.m in Sources */,
 				0281595E1EC97498009A25E0 /* UIViewController+Route.m in Sources */,
@@ -1461,6 +1484,7 @@
 				4E91666F1EADA70100B06D4B /* main.m in Sources */,
 				02DDA11E1ECD317D0010AAA0 /* SKATableViewSection.m in Sources */,
 				02DDA1281ECD38FD0010AAA0 /* SKAGuidanceView.m in Sources */,
+				025853301ED809E1009E78DE /* SKALoginIN.m in Sources */,
 				02DDA13F1ECD41CD0010AAA0 /* SKAAliyunModel.m in Sources */,
 				02A678F71ECAAF8F0062EAD2 /* UIViewController+SKANetInterfactor.m in Sources */,
 				02DDA12C1ECD39590010AAA0 /* SKAWaveImageView.m in Sources */,

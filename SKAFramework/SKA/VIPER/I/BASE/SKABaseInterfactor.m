@@ -9,5 +9,15 @@
 #import "SKABaseInterfactor.h"
 
 @implementation SKABaseInterfactor
-
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        self.url = @"";
+        self.cache_time = @"0";
+        [self initInterfactor];
+    }
+    return self;
+}
+- (void)initInterfactor{}
 @end

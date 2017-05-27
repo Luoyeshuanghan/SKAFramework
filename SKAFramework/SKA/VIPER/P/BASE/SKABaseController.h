@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface SKABaseController : UIViewController
-
+@property (nonatomic, strong) SKABaseView * v;/**< View */
 @end

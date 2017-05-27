@@ -6,8 +6,8 @@
 //  Copyright © 2017年 姜雨辰. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "SKANetWorkInterface.h"
 
-@interface SKABaseInterfactor : NSObject
-
+@interface SKABaseInterfactor : SKANetWorkInterface
+- (void)initInterfactor;//子类重写
 @end
